@@ -24,6 +24,6 @@ Este es un juego interactivo del **Ahorcado** desarrollado en **Node.js con Type
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com//hangman-cli.git
+git clone https://github.com/GuarU345/hangman-cli.git
 cd hangman-cli
 ```
