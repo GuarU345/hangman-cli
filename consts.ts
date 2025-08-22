@@ -6,7 +6,7 @@ export const LANGUAGES = {
 }
 
 export const DIFFICULTYS = {
-    FACIL: { name: "Fácil", value: 0, wordLength: getRandomLength(1, 5), attempts: 10 },
+    FACIL: { name: "Fácil", value: 0, wordLength: getRandomLength(1, 4), attempts: 10 },
     INTERMEDIO: { name: "Intermedio", value: 1, wordLength: getRandomLength(6, 7), attempts: 6 },
     DIFICIL: { name: "Difícil", value: 2, wordLength: getRandomLength(8, 10), attempts: 4 },
     IMPOSIBLE: { name: "Imposible", value: 3, wordLength: getRandomLength(11, 15), attempts: 1 },
