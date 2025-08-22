@@ -34,7 +34,6 @@ class HangmanGame {
     async startGame() {
         await this.selectDifficulty()
         const word = await this.getRandomWord();
-        console.log({ word })
         let attemptsLeft = this.config.attempts;
 
         while (attemptsLeft > 0) {
