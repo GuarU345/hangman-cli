@@ -207,7 +207,6 @@ class HangmanGame {
 }
 
 const hangmanGame = new HangmanGame(DIFFICULTYS_MAP)
-console.log("Bienvenido al ahorcado!");
 await hangmanGame.mainMenu()
 
 
